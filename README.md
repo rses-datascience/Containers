@@ -14,6 +14,8 @@ Docker containers to run RSES data stacks. The containers need the pre-installat
 	
 		docker run -it --rm -p 8888:8888 -v /my_path/:/home/jovyan/work jupyter/datascience-notebook
 
+	Be carefull to replace /mypath by your current working path.
+	
 ## Julia
 
 * The charlesll/julia:latest container (https://github.com/charlesll/Docker-Julia) offers a lot of julia libraries as well as pre-installed Python 2 and Python 3 kernels with machine learning librairies, accessible through Jupyter notebooks.
